@@ -30,9 +30,7 @@ public class SistemaGestionEmpleados {
         sistema.aumentarSalario(porcentaje);
         
         System.out.println("Lista de Empleados:");
-        for (Empleado empleado : empleados) {
-            System.out.println(empleado);
-        }
+        
 
         scanner.close();
     }
